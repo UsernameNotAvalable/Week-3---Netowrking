@@ -101,3 +101,12 @@ IP -> Internet protocol
 both of these don't care if someone is listening they will send it to the spot.
 they're known as connectionless
 
+packet tacer - router command lines
+
+enable confit t int fa0/0 ip address 192.168.1.1 255.255.255.0 no shutdown
+
+en - config t - int s0/0/0 - ip add - 192.168.5.1 255.255.255.252
+
+you use the 255.255.255.252 when using the /30 subnet mask.
+the /30 makes it a very small network
+
