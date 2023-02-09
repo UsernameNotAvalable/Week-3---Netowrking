@@ -110,3 +110,17 @@ en - config t - int s0/0/0 - ip add - 192.168.5.1 255.255.255.252
 you use the 255.255.255.252 when using the /30 subnet mask.
 the /30 makes it a very small network
 
+
+Route acrynom and symbol
+
+RIP -> R -> trust worthiness [120/1] -> the lower the first number the btter, means more secure.
+OSPF -> O -> 110/1
+EIGRP -> D -> 90/1
+Static -> ? -> 1/1 (super secure)
+
+when there's a routing protocol (R) you are sharing information to other routers.
+
+tracert ipaddresshere -> will show the connection route to said IP in the cmd
+tracert 192.168.1.0
+
+sh ip command -> check rip
